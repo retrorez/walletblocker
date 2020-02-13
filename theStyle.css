@@ -1,0 +1,631 @@
+
+
+body{
+	max-width: 100%;
+	max-height: 100%; 
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+#googleMap{
+		width: 480px !important;
+		height: 235px !important;;
+	}
+	
+#offerCard{
+	display: none !important; 
+}
+
+div #topBanner{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+}
+
+
+@media only screen and (max-width: 520px) {
+	#footer{
+		padding-left: 100px !important;
+		padding-right: 100px !important;
+	}
+	
+	div .cardInfo{
+		margin-left: auto !important;
+		margin-right: auto !important;
+		position: static !important;
+		
+	}
+	
+	#cards img{
+		display: none !important;
+	}
+	
+	#homeSpace h2{
+	font-size: 20px !important;
+	}
+	
+	.video{
+		width: 580px; 
+		height: 335px;
+	}
+	
+	#companyInfo{
+		padding-left: 100px !important; 
+	}
+}		
+
+@media only screen and (max-width: 575px) {
+	#howImg{
+		display: none !important; 
+	}
+	
+	#howSpace{
+		padding-right: 10px !important;
+		padding-left: 10px !important;
+	}
+	
+	#howSpace h2{
+		font-size: 24pt;
+	}
+	
+	div #bagIcon{
+		padding-left: 50px !important; 
+	}
+	
+}
+
+
+@media only screen and (max-width: 730px) {
+	
+	
+	#mapSpace{
+		padding-left: 50px !important;
+		padding-right: 50px !important;
+	}
+	
+	#companyInfo p{
+		font-size: 26px !important;
+	}	
+}
+	
+
+@media only screen and (max-width: 770px) {
+  
+  body{
+	zoom: 0.6; /* Other non-webkit browsers */
+    zoom: 60%; /* Webkit browsers */
+	}
+	
+	.products img{
+		max-width: 80%;
+		height: auto; 
+		}
+		
+	#cards img{
+		max-width: 90%;
+		height: auto;  
+		}
+		
+	#howWords p{
+		font-size: 26px !important;
+	}
+ }
+ 
+ 
+@media only screen and (max-width: 920px) {
+	 div #bagIcon{
+		padding-left: 80px !important; 
+	}
+}
+
+	
+@media only screen and (max-width: 1360px) {
+	
+	
+	div #logoIcon{
+		padding-left: 0px;
+		}
+		
+	.products img{
+		max-width: 80%;
+		height: auto; 
+		}
+		
+	#cards img{
+		max-width: 80%;
+		height: auto; 
+		}
+	
+	#jumboDiv{
+		width: 100%;
+		zoom: 0.7; /* Other non-webkit browsers */
+		zoom: 70%; /* Webkit browsers */
+	}
+	
+	div .cardInfo{
+		margin: 0;
+		width: auto;
+		max-height: 50%; 
+		}
+		
+	#homeSpace{
+		padding-left: 100px !important;
+		padding-right: 100px !important;
+	}
+	
+	#mapSpace{
+		padding-left: 100px !important;
+		padding-right: 100px !important;
+	}
+}
+
+@media only screen and (max-width: 1470px) {
+	
+	#companyInfo{
+		height: auto !important; 
+		border: none !important;
+		padding-top: 0 !important;
+	}
+}	
+	
+	
+nav {
+  font-family: 'Bebas Neue', sans-serif;
+  color: silver; 
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.navLinks a {
+	border-bottom: 1px solid silver;
+}
+
+.sidenav a:hover {
+  color: DeepSkyBlue;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#bagIcon{
+	padding-top:15px;
+	text-align: center; 
+	display: block; 
+	padding-left: 150px;
+	}
+	
+#bagIcon img:hover{
+		opacity: .55;
+}
+
+nav button:hover{
+		opacity: .55;
+}
+
+#logoIcon img:hover{
+	opacity: .75;
+}
+	
+#logoIcon{
+	padding-top:10px;
+	padding-bottom: 5px;
+	margin-left:auto; 
+	margin-right: auto;
+}
+
+div #logoIcon{
+	text-align: center; 
+}
+	
+#logoIcon img{
+	margin-left:auto; 
+	margin-right: auto;
+}
+
+#headMain{
+	background-color: black; 
+	height: 50px;
+	width: 100%; 
+	text-align: center; 
+	padding-top: 15px; 
+	padding-bottom: 10px; 
+	font-size: 20px;
+}
+
+#headMain p{
+	font-family: 'Bebas Neue', sans-serif; 
+	color: white;
+	margin-left:auto; 
+	margin-right: auto;
+}
+
+#webBanner{
+	margin-left:auto; 
+	margin-right: auto; 
+	display: block; 
+}
+
+#theLine img{
+	margin-left:auto; 
+	margin-right: auto; 
+	display: block;  
+	padding-bottom: 5px;
+}
+
+#prodTitle{
+	font-family: 'Roboto', sans-serif;
+	text-align: center; 
+	font-size: 30px;
+	color: Gray;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+#conTitle{
+	font-family: 'Roboto', sans-serif;
+	text-align: center; 
+	font-size: 30px;
+	color: Gray;
+	margin-top: 50px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+.products{
+	margin-left:auto; 
+	margin-right: auto;  
+	text-align: center; 
+}
+
+
+#topBanner{
+	margin-left:auto; 
+	margin-right: auto;
+	background-color: white; 
+	height: 60px;
+}
+
+h4{
+	font-family: 'Roboto', sans-serif;
+	text-align: center; 
+	font-size: 30px;
+	color: Dimgray;
+	padding-top: 15px;
+}
+
+h5, p{
+	font-family: 'Helvetica Neue', sans-serif; 
+	color: Dimgray;
+}
+
+#formHead h5{
+	padding-left: 5px;
+}
+
+.cardInfo h3, a{
+	font-family: 'Bebas Neue', sans-serif; 
+}
+
+.cardInfo h3{
+	color: Dimgray;
+}
+
+.cardInfo{
+	background-color: white;
+	max-width: 710px; 
+	height: auto; 
+	padding: 20px;
+	position: absolute;
+	z-index: 1; 
+	left: 250px;
+	margin-top: 140px;
+}
+
+.cardInfo p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+}
+
+.cardInfo a:hover{
+	opacity: .85;
+}
+
+.cardInfo a{
+	float: right;
+	border-radius: 0px;
+	height: 40px;
+	font-size: 18px;
+}
+
+#theForm{
+	text-align: left;
+	margin-left: auto; 
+	margin-right: auto;
+	display: block; 
+}
+
+#theForm h5{
+	font-family: 'Helvetica Neue', sans-serif; 
+	color: Dimgray;
+	text-align: center;
+	font-weight: bold; 
+}
+
+#companyInfo{
+	text-align: left;
+	margin-left: auto; 
+	margin-right: auto;
+	padding-left: 200px;
+	padding-right: 40px;
+	padding-top: 50px;
+	float: left;
+	border-right: 1px solid black;
+	height: 450px;
+}
+
+#companyInfo p{
+	font-size: 22px;
+}
+
+#companyInfo img{
+	width: 50px;
+	height: auto;
+	padding: 10px;
+}
+
+#homeSpace{
+	min-height: 750px;
+	height: auto;
+	width: auto; 
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-bottom: 25px; 
+	margin-top: 60px;
+	text-align: center;
+}
+
+#howSpace{
+	min-height: 750px;
+	height: auto;
+	width: auto; 
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 25px; 
+	margin-top: 60px;
+}
+
+
+#howSpace h2{
+	padding-top: 10px;
+}
+
+#howImg img{
+	width: 100%;
+}
+	
+
+#mapSpace{
+	min-height: 650px;
+	height: auto;
+	width: auto; 
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 50px; 
+	margin-top: 60px;
+	text-align: center;
+}
+
+#homeSpace h2{
+	font-family: 'Helvetica Neue', sans-serif; 
+}
+
+#primeTime{
+	width: 65%;
+	height: auto; 
+	padding-top: 20px;
+	padding-bottom:15px;
+}
+
+.controlTower {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+#primeTime h4{
+	text-align: left;	
+	border-top: 1px solid grey; 
+	padding-top: 10px;
+}
+
+#infoBlock h4{
+	text-align: left;	
+	border-bottom: 1px solid grey; 
+	padding-top: 10px;
+}
+
+.panel-body{
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.panel-heading img, .panel-heading img{
+	height: 20px; 
+	width: auto; 
+	float: right;
+	padding-top: 8px;
+	margin-top: auto;
+	margin-bottom: auto; 
+	padding-right: 5px;
+}
+
+
+#primeTime a, #homeSpace a{
+	font-family: 'Bebas Neue', sans-serif; 
+	text-decoration: none; 
+	color: 	#696969;
+	font-size: 25px;
+}
+
+.panel-heading:hover{
+	opacity: .70;
+	cursor: pointer; 
+}
+
+#infoBlock{
+	width: 80%;
+	display: block; 
+	border-bottom: 2px solid grey;
+}
+
+#offerBlock{
+	width: 90%;
+	display: block; 
+	background-color: white; 
+	padding: 20px;
+	min-height: 400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#offerCard img{
+	display:block; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#promoBlock{
+	max-width: 60%; 
+	display: block; 
+	margin-left: auto;
+	margin-right: auto;
+	float: right; 
+}
+
+#list{
+	font-family: 'Bebas Neue', sans-serif; 
+	font-size: 24px;
+}
+
+#infoBlock p{
+	font-size: 18px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#hackPack img{
+	display: inline; 
+	width: 400px;
+	height: auto; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#hackPack img:hover{
+	opacity: .70;
+	cursor: pointer; 
+}
+
+#hackPack h2{
+	font-family: 'Bebas Neue', sans-serif; 
+}
+
+#btnContactUs{
+	border-radius: 0px;
+	text-align: center;
+}
+
+#cards{
+	left: 880px;
+}
+
+#footer{
+	background-color: #202020; 
+	padding-top: 15px;
+	padding-left: 180px;
+	padding-right: 120px; 
+	height: 100%;
+	padding-bottom: 20px;
+}
+
+
+#footer h5{
+	color: #F8F8F8; 
+	font-family: 'Verdana', sans-serif; 
+	font-size: 16px;
+	text-align: left; 
+	padding-top: 10px;
+}
+
+#footer a{
+	color: #A0A0A0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px; 
+	text-align: left; 
+	}
+	
+	
+#footer a:hover{
+	color: red;
+	text-decoration: none; 
+}
+
+#footer img{
+	display: block;
+	display: inline; 
+}
+
+#footer img:hover{
+	opacity: 70%;
+	}
+	
+#rowFooter{
+	margin-bottom: -30px;
+	}
+
+#companyName{
+	color: #A0A0A0;
+	text-align: right; 
+	font-family: 'Verdana', sans-serif;
+	font-size: 13px;
+	}

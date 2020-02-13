@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <title>Special Offers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="theStyle.css" rel="stylesheet" type="text/css">
+  
+
+
+<style>
+
+::selection {
+  background: DeepSkyBlue;
+}
+
+::-moz-selection {
+  background: DeepSkyBlue;
+}
+
+
+</style>
+
+<!-- Stylesheet is linked in head +/- other stuff pertaining to form handling-->
+
+<script>
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+</script>
+
+
+<script>
+
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
+}); 
+
+</script>
+
+<script>
+		
+	$(document).ready(function(){	
+		$('#logonLink').on('click', function(e){
+			$('#logonBox').modal({
+				keyboard: false,
+				backdrop: 'static'
+				}); 
+			});
+		$('#doLogon').on('click', function(e){
+			alert('Thank you a coupon code has been sent to your email!');
+			$('#logonBox').modal('hide');
+			});
+	});		
+
+</script>
+
+</head>
+
+
+<body>
+
+<div class="controlTower">
+
+<div id="headMain" class="d-block"><p>PROTECTION AGAINST WIRELESS CREDIT CARD HACKERS</p></div>
+	
+<!--MAIN BANNER DISPLAY-->
+	
+<div id="topBanner" class="row container-fluid">
+	
+	<div class="col-4 col-sm-4 col-md-4 d-block">
+	
+<!--START NAV-->
+
+
+	<nav class="navbar navbar-light navbar-1 white">
+
+	<button class="navbar-toggler" onClick="openNav()" type="button"><span class="navbar-toggler-icon"></span></button>
+	
+	<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+	
+		<div class="navLinks">
+		<a href="index.html">Home</a>
+		<a href="https://www.amazon.com/gp/product/B07XB99RCN/ref=cx_skuctr_share?smid=A193U3P0N2CDV3" target="_blank">All Products</a>
+		<a href="howitworks.html">How It Works</a>
+		<a href="offers.html">Special Offers</a>
+		<a href="learn.html">Learn More</a>
+		<a href="https://www.facebook.com/WalletBlocker/" target="_blank">Latest News</a>
+		<a href="terms.html">Disclaimer</a>
+		<a href="map.html">Company Info</a>
+		<a href="contact.html">Contact</a>
+		</div> 
+	</div>
+
+	</nav>
+	
+	</div>
+
+
+<!--END NAV-->
+
+	<div id="logoIcon" class="col-4 col-sm-4 col-md-4 d-block">
+	<a href="index.html"><img src="photos/logo.png" width="auto" height="40"></a>  
+	</div>
+	
+	
+	
+	<div id="bagIcon" class="col-4 col-sm-12 col-md-4 d-block">
+	<a href="https://www.amazon.com/gp/product/B07XB99RCN/ref=cx_skuctr_share?smid=A193U3P0N2CDV3" target="_blank"><img src="photos/bag.png" width="30" height="30"></a>  
+	</div>
+	
+	
+</div>
+</div>
+		
+		<div id="webBanner"> <img src="photos/specialsBanner.jpg" width="100%" height="auto"></img> </div>
+	
+<!--END MAIN BANNER DISPLAY-->
+	
+	
+<!--OFFER PAGE WITH COUPON MODAL FORM-->
+	
+	
+<div class="container-fluid jumbotron" id="offerBox">
+	
+	
+	<div class="container-fluid" id="offerBlock">
+	
+	<div class="row container-fluid"> 
+		
+		<div class="col-6 col-md-7 col-sm-12 col-xs-12 d-block" id="offerCard">
+			<img src="photos/offerCard.jpg"/>
+		</div>                                     
+		
+		<div class="panel-group col-6 col-md-5 col-sm-12 col-xs-12" id="promoBlock">
+		<h3>WALLETBLOCKER PROMOTIONAL DISCOUNT</h3>
+		<p>Sign Up today for free promotional offers and you will be given a 10% off coupon code for your first purchase of WalletBlocker Anti-Wireless Theft Card</p>
+			<div id="list">	
+			<ul>									
+			<li>PROTECTS ALL CREDIT &amp; DEBIT CARDS</li>
+			<li>FITS IN ANY WALLET</li>
+			<li>NO BATTERIES OR CHARGING REQUIRED</li>
+			<li>100% PROTECTION GUARANTEE</li>
+			<li>LIFETIME WARRANTY</li>
+			</ul>
+			</div>
+			<a class="btn btn-dark btn-md" id="logonLink" style="width: 130px;" href="#" role="button">SIGN UP &nbsp; &#62;</a>
+		</div>
+		
+		<div class="modal fade" id="logonBox" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div id="formHead" class="modal-header">
+				<h5 class="modal-title">Special Offer</h5> 
+					<button type="button" class="close" data-dismiss="modal"><span>&times;</span></button> 
+				</div> 
+						<div class="modal-body">
+						
+<!-- under action make a php page that gathers customer email and sends out a coupon code if they are not in the database--> 
+
+						<form role="form" method="post" action="">
+							<div class="form-group"> 
+								<input type="text" class="form-control" id="userName" placeholder="Your Email">
+							</div> 
+							<div class="form-group">
+								<input type="text" class="form-control" id="userName" placeholder="Retype Email">
+							</div> 
+						</form> 
+						</div> 
+						
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" id="doLogon">Sign Up</button> 
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+						</div> 
+			</div> 
+		</div>
+		</div>
+				
+			
+	</div>
+		
+	</div>
+	
+</div>
+	
+<!--END OF COUPON CODE INFO BLOCK--> 
+
+
+
+<!--FOOTER--> 
+	
+<div id="footer">
+		
+	<div id="rowFooter" class="row">
+	
+		<div class="col-3 col-md-3 col-sm-6 col-xs-6 d-block">
+			<h5>OUR STORE</h5>
+			<a href="https://www.amazon.com/gp/product/B07XB99RCN/ref=cx_skuctr_share?smid=A193U3P0N2CDV3" target="_blank">ALL PRODUCTS</a>
+			<br>
+			<a href="howitworks.html">HOW IT WORKS</a>
+			<br>
+			<a href="offers.html">SPECIAL OFFERS</a>			
+		</div> 
+		
+		<div class="col-3 col-md-3 col-sm-6 col-xs-6 d-block">
+			<h5>ADDITIONAL INFO</h5>
+			<a href="https://www.facebook.com/WalletBlocker/" target="_blank">LATEST NEWS</a>
+			<br>
+			<a href="terms.html">DISCLAIMER, AGREEMENT AND TERMS</a>
+			<br>
+			<a href="learn.html">LEARN MORE</a>
+		</div> 
+		
+		<div class="col-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 d-block">
+			<h5>CONTACT US</h5>
+			<a href="contact.html">CONTACT FORM</a>
+			<br>
+			<a href="map.html">7862 W IRLO BRONSON MEM HWY #333 KISSIMMEE, FL</a>
+			<br>
+			<a href="mailto:walletblocker@gmail.com">WALLETBLOCKER@GMAIL</a>
+		</div>  
+		
+		<div class="col-3 col-md-3 col-sm-3 col-xs-6 d-block">
+			<h5>SOCIAL</h5>
+			<a href="https://www.facebook.com/WalletBlocker/" target="_blank"><img src="photos/fb.png" width="auto" height="50"/></a>
+			<a href="https://www.instagram.com/WalletBlocker/" target="_blank"><img src="photos/ig.png" width="auto" height="50"/></a>
+			<a href="https://www.twitter.com/WalletBlocker/" target="_blank"><img src="photos/tw.png" width="auto" height="50"/></a>
+		</div> 
+	
+	</div> 
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div id="companyName" class="d-block">&#169;WALLETBLOCKER 2020</div> 
+		<br>
+		
+</div>
+
+<!--FOOTER END--> 
+
+</body>
+
+</html>
+
+
